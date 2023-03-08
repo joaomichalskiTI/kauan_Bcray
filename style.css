@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Genos:wght@100&family=Six+Caps&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(430deg, #30006ad0, #7415b7d5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.heart{
+    color: red;
+}
+.div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.serif{
+    color: #30006ad0;
+    font-family: 'Caveat', cursive;
+}
+.parag1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center ;
+    color: rgba(14, 0, 116, 0.604);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 0 8px 32px 0 rgb(171, 76, 249);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 100px;
+    width: 250px;
+    height: 30px;
+    font-size: 10px;
+
+}
+.mostrador1{
+    border: 2px solid rgba(14, 0, 116, 0.604);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 0 8px 32px 0 rgb(171, 76, 249);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 270px;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(14, 0, 116, 0.604);
+}
+.parag2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(14, 0, 116, 0.604);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 0 8px 32px 0 rgb(171, 76, 249);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 28px;
+    font-size: 8px;
+}
+.mostrador2{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgba(14, 0, 116, 0.604);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 0 8px 32px 0 rgb(171, 76, 249);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 270px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color:rgba(14, 0, 116, 0.604);
+}
+.text{
+    font-size: 18px;
+}
+.text2{
+    font-size: 10px;
+}
